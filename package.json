@@ -2,7 +2,8 @@
   "name": "trades-plugin-chartjs",
   "version": "1.0.0",
   "description": "Tron Option ChartJS Lib",
-  "main": "types/index.d.ts",
+  "main": "dist/trades-plugin-chart.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "chart.js": "^3.5.1"
-  }
+  },
+  "files": [
+    "dist/*.js",
+    "types/*.d.ts"
+  ]
 }
